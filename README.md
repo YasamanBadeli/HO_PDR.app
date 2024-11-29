@@ -88,10 +88,5 @@ git push origin feature/new-feature
 
 
 ---
-# License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
----
 # Developed by YasamanBadeli 
 Feel free to suggest additional enhancements or share feedback! 🚀
