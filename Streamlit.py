@@ -77,12 +77,11 @@ def main():
             "model_type": model_type
         }
 
-        base_url = "https://HODPR-api-url.com/predict?"
+        base_url = "http://127.0.0.1:8000/predict?"
         url = base_url + urlencode(params)
 
-        # Display prediction results
+        #Display prediction results
         with st.spinner("Classifying, please wait..."):
-            time.sleep(2)
             response = requests.get(url)
 
             if response.status_code == 200:
@@ -110,7 +109,7 @@ def main():
 import requests
 
 try:
-    response = requests.get("https://hodpr-api-url.com/predict")
+    response = requests.get("https://ho-pdr-app.onrender.com")
     print(response.status_code, response.text)
 except requests.ConnectionError as e:
     print(f"Connection error: {e}")
