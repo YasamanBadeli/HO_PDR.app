@@ -17,10 +17,17 @@ Welcome to the HO_DPR Dataset Analysis and API Application, a professional proje
 # Requirements
 
 Python >= 3.8
+
+Pipeline
+
 FastAPI
+
 Uvicorn
+
 Streamlit
+
 Pandas, NumPy, scikit-learn
+
 Pickle (for loading saved models and scalers)
 
 ---
